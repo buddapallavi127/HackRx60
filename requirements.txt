@@ -18,7 +18,7 @@ psycopg2-binary==2.9.9  # Required for PostgreSQL connection
 google-generativeai==0.8.5
 pinecone==7.3.0
 sentence-transformers==5.0.0
-# The following are key dependencies of the above packages
+
 # that should be explicitly included for a stable build.
 huggingface-hub==0.34.3
 torch==2.7.1  # Required by sentence-transformers
