@@ -20,8 +20,7 @@ psycopg2-binary==2.9.6
 google-generativeai==0.1.0
 pinecone-client==2.2.2
 sentence-transformers==2.2.2
-torch==2.0.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
-transformers==4.28.1
+torch==2.0.1  # Replaced with the CPU-only version
 
 # Utilities
 huggingface-hub==0.14.1
